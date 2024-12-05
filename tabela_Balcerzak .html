@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dane Procesorów - Filip Balcerzak</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            border: 6px solid red;
+        }
+        th, td {
+            border: 2px solid red;
+            padding: 10px;
+        }
+        th {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        .row-blue td {
+            background-color: lightblue;
+            color: red;
+        }
+        .row-green td {
+            background-color: lightgreen;
+            color: red;
+        }
+        .cooling {
+            background-color: yellow;
+            color: black;
+        }
+        .header-title {
+            font-size: 1.5em;
+            background-color: orange;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="5" class="header-title">Dane Procesorów - Filip Balcerzak 2F</th>
+        </tr>
+        <tr>
+            <th>Model Procesora</th>
+            <th>Taktowanie</th>
+            <th>Liczba Rdzeni</th>
+            <th>Liczba Wątków</th>
+            <th>Typ chłodzenia</th>
+        </tr>
+        <tr class="row-blue">
+            <td>Intel i9 11900K</td>
+            <td>3.5 GHz</td>
+            <td>8</td>
+            <td>16</td>
+            <td rowspan="6"  class="cooling">AKTYWNE</td>
+        </tr>
+        <tr class="row-blue">
+            <td>Intel i7 11700K</td>
+            <td>3.6 GHz</td>
+            <td>8</td>
+            <td>16</td>
+        </tr>
+        <tr class="row-blue">
+            <td>AMD Ryzen 9 5900X</td>
+            <td>3.7 GHz</td>
+            <td>12</td>
+            <td>24</td>
+        </tr>
+        <tr class="row-green">
+            <td>AMD Ryzen 7 5800X</td>
+            <td>3.8 GHz</td>
+            <td>8</td>
+            <td>16</td>
+        </tr>
+        <tr class="row-green">
+            <td>Intel i5 10400F</td>
+            <td>2.9 GHz</td>
+            <td>6</td>
+            <td>12</td>
+        </tr>
+        <tr class="row-green">
+            <td>AMD Ryzen 5 5600X</td>
+            <td>3.7 GHz</td>
+            <td>6</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <p style="text-align: left;">Źródło:  <br>
+	<a href="https://www.morele.net">https://www.morele.net</a></p>
+</body>
+</html>
